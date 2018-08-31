@@ -6,11 +6,21 @@ import UserInput from './components/UserInput'
 import UserOutput from './components/UserOutput'
 
 class App extends Component {
+
+  state = {
+
+  }
+
+  submitName = () => {
+
+  }
+
   render() {
     return (
       <div className="App">
 
         <UserInput />
+        <UserOutput />
         <UserOutput />
 
         <ol>
