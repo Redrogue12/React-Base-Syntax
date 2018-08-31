@@ -3,7 +3,11 @@ import React from 'react';
 const userInput = (props) => {
   return (
     <div className="userInput">
-      <input></input>
+      <form>
+        <label htmlFor="nameInput">Enter Name:
+          <input className="nameInput" name="nameInput" type="text"></input>
+        </label>
+      </form>
     </div>
   )
 }
