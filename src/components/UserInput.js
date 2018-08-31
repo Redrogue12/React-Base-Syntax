@@ -7,6 +7,7 @@ const userInput = (props) => {
         <label htmlFor="nameInput">Enter Name:
           <input className="nameInput" name="nameInput" type="text"></input>
         </label>
+        <button type="submit" onClick={props.submitName} value={props.name}>Submit</button>
       </form>
     </div>
   )
